@@ -1,0 +1,416 @@
+.left,.right{
+    display: inline-block;
+  /*   border: solid 2px black; */
+    box-sizing: border-box;
+    vertical-align: top;
+  }
+  html, body{
+    border-top: solid 10px rgb(155, 95, 190);
+    border-bottom: solid 10px rgb(162, 106, 184);
+    padding: 0px;
+    margin: 0px auto;
+    background-color: rgb(236, 231, 231);
+  }
+  img{
+    position: relative;
+  /*   border: solid 1px; */
+    width: 45%;
+    left: 110px;
+    top: 30px;
+    margin-bottom: 50px;
+  }
+  .left{
+    width: 30%;
+    height: 1300px;
+    margin-left: 160px;
+  }
+  .right{
+    width: 40%;
+    height: 1300px;
+    margin-left: 110px;
+  }
+  .up_name{
+  /*   border: solid 1px; */
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-family: Helvetica;
+    font-weight: 900;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+  .up_engname{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  .contact,.contact_email,.contact_phone{
+  /*   border: solid 1px; */
+    width: 100%;
+    font-family: Helvetica;
+  }
+  .contact{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+  .contatct_email,.conttact_phone{
+    position: relative;
+    leeft: 100px;
+    line-height: 200px;
+    font-size: 18px;
+  }
+  .language{
+  /*   border: solid 1px; */
+    width: 100%;
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 60px;
+  }
+  .chinese,.english{
+    font-size: 18px;
+    font-family: Helvetica;
+    margin-top: 20px;
+    margin-left: 60px;
+  }
+  .chi_abilityouter,.eng_abilityouter{
+    border: solid 2px;
+    border-radius: 11px;
+    width: 300px;
+    height: 20px;
+    margin-left: 60px;
+    margin-top: 5px;
+  }
+  .chi_abilityinner{
+    border: solid 2px;
+    background-color: #FFE066;
+    border-radius: 9px;
+    width: 290px;
+    height: 12px;
+    margin-top: 2px;
+    margin-left: 3px;
+  }
+  .chi_number,.eng_number{
+    font-family: Helvetica;
+    font-size: 15px;
+    text-align: right;
+    margin-right: 45px;
+    margin-top: 8px;
+  }
+  .eng_abilityinner{
+    border: solid 2px;
+    background-color: #FFE066;
+    border-radius: 11px;
+    width: 240px;
+    height: 12px;
+    margin-top: 2px;
+    margin-left: 3px;
+  }
+  .application{
+  /*   border: solid 1px; */
+    width: 100%;
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 60px;
+  }
+  .illus_icon{
+    display: inline-block;
+    border: solid 3px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-family: Helvetica;
+    letter-spacing: 1px;
+    padding: 3px;
+    padding-left: 7px;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 30px;
+  }
+  .illus_outer{
+    border: solid 2px;
+    border-radius: 11px;
+    width: 300px;
+    height: 20px;
+    margin-left: 60px;
+    margin-top: 120px;
+  }
+  .illus_inn{
+    position: absolute;
+    border: solid 2px;
+    background-color: #FFE066;
+    border-radius: 9px;
+    width: 139px;
+    height: 12px;
+    margin-top: 2px;
+    margin-left: 3px;
+  } 
+  .illinn01{
+    display:inline-block;
+    border: dashed 1px;
+    width: 25%;
+    height: 20px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+  }
+  .illinn02{
+    position: relative;
+    display:inline-block;
+    border: dashed 1px;
+    width: 25% ;
+    height: 20px;
+    right: 8px; 
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+  }
+  .illinn03{
+    position: relative;
+    display: inline-block;
+    border: dashed 1px;
+    width: 75px;
+    height: 20px;
+    left: 55px;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+  }
+  .illus_word{
+  /*   border: solid 1px; */
+    position: relative;
+    display: inline;
+    font-size: 12px;
+    font-family: Helvetica; 
+    margin-right: 40px;
+    top: 2px;
+    left: 50px;
+  }
+  .ps_icon{
+    display: inline-block;
+    border: solid 3px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-family: Helvetica;
+    padding: 4px;
+    padding-left: 5px;
+    padding-right: 9px;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 65px;
+  }
+  .ps_outer{
+    border: solid 2px;
+    border-radius: 11px;
+    width: 300px;
+    height: 20px;
+    margin-left: 60px;
+    margin-top: 140px;
+  }
+  .ps_inn{
+    position: absolute;
+    border: solid 2px;
+    background-color: #FFE066;
+    border-radius: 9px;
+    width: 110px;
+    height: 12px;
+    margin-top: 2px;
+    margin-left: 3px;
+  } 
+  .psinn01{
+    display:inline-block;
+    border: dashed 1px;
+    width: 25%;
+    height: 20px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+  }
+  .psinn02{
+    position: relative;
+    display:inline-block;
+    border: dashed 1px;
+    width: 25% ;
+    height: 20px;
+    right: 8px; 
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+  }
+  .psinn03{
+    position: relative;
+    display: inline-block;
+    border: dashed 1px;
+    width: 75px;
+    height: 20px;
+    left: 55px;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+  }
+  .ps_word{
+    position: relative;
+    display: inline;
+    font-size: 12px;
+    font-family: Helvetica; 
+    margin-right: 40px;
+    top: 2px;
+    left: 70px;
+  }
+  .school{
+  /*   border: solid 1px; */
+    width: 100%;
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 50px;
+  }
+  .circle1{
+    position: relative;
+    border: solid 2px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    left: 15px;
+    top: 43px;
+  }
+  .circle2{
+    position: relative;
+    border: solid 2px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    left: 35px;
+    top: 33px;
+  }
+  .ntust{
+    position: relative;
+    font-family: Helvetica;
+    line-height: 28px;
+    font-size: 18px;
+    left: 40px;
+    margin-top: 20px;
+  }
+  .collage1{
+    position: relative;
+    font-family: Helvetica;
+    line-height: 25px;
+    font-size: 16px;
+    left: 40px;
+  }
+  .collage{
+    position: relative;
+    left: 20px;
+  }
+  .ex_par{
+    position: relative;
+    font-family: Helvetica;
+    line-height: 28px;
+    font-size: 18px;
+    left: 60px;
+    margin-top: 10px;
+  }
+  .ex_par2{
+    position: relative;
+    font-family: Helvetica;
+    line-height: 25px;
+    font-size: 16px;
+    left: 60px;
+  }
+  .job{
+  /*   border: solid 1px; */
+    width: 100%;
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 50px;
+  }
+  .job1{
+    position: relative;
+    font-family: Helvetica;
+    line-height: 28px;
+    font-size: 18px;
+    left: 60px;
+    margin-top: 20px;
+  }
+  .circle3{
+    position: relative;
+    border: solid 2px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    left: 35px;
+    top: 43px;
+  }
+  .circle4{
+    position: relative;
+    border: solid 2px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    left: 35px;
+    top: 33px;
+  }
+  .job11{
+    position: relative;
+    font-family: Helvetica;
+    line-height: 25px;
+    font-size: 16px;
+    left: 60px;
+  }
+  .job2{
+    position: relative;
+    font-family: Helvetica;
+    line-height: 28px;
+    font-size: 18px;
+    left: 60px;
+    margin-top: 10px;
+  }
+  .job12{
+    position: relative;
+    font-family: Helvetica;
+    line-height: 25px;
+    font-size: 16px;
+    left: 60px;
+  }
+  .special{
+  /*   border: solid 1px; */
+    width: 100%;
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 50px;
+  }
+  .club{
+    position: relative;
+    font-family: Helvetica;
+    line-height: 28px;
+    font-size: 18px;
+    left: 60px;
+    margin-top: 20px;
+  }
+  .club1{
+    position: relative;
+    font-family: Helvetica;
+    line-height: 25px;
+    font-size: 16px;
+    left: 60px;
+  }
+  .other{
+    position: relative;
+    font-family: Helvetica;
+    line-height: 28px;
+    font-size: 18px;
+    left: 60px;
+    margin-top: 10px;
+  }
+  .other1{
+    position: relative;
+    font-family: Helvetica;
+    line-height: 25px;
+    font-size: 16px;
+    left: 60px;
+  }
